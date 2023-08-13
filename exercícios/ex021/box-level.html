@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{
+            background-color: lightgray;
+            height: 300px; /* Altura */
+            width: 300px;  /*largura */
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: darkgreen; */
+            border: 10px solid darkgreen;
+
+            /* padding-top: 10px;
+            padding-right: 10x;
+            padding-bottom: 10px;
+            padding-left: 10px; */
+            padding: 10px;            
+            /* Padding - preenchimento (parte de dentro da borda) */
+
+            /* margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px; */
+            margin: 20px 20px 40px 20px;
+            /* Margin - margem (Borda para fora) */
+            
+            /* margin: auto; PARA CENTRALIZAR A BORDA NO MEIO */
+
+            /* outline-width: 5px; 
+            outline-style: dashed;
+            outline-color: blue; */
+            outline: 5px dashed orange;
+            /* Outline fica entre a borda e a margem(lado de fora da borda) */ 
+        }  
+        
+        /*
+        A ordem é sempre em direção do relógio (horária)
+        
+        top- cima
+        right - direita
+        bottom - baixo
+        left - esquerda
+        
+        */
+
+        a{
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Paragrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixa inline-level</a>vamos ver como tudo isso funciona</p>
+</body>
+</html>
