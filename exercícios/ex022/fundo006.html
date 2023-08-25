@@ -3,25 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*
+             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-repeat: no-repeat;
             background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; 
+            */
+
+             /* Shorthand - background
+       
+             color > image > position > repeat > {size} > attachment
+        
+             */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }
+       
 
         main{
             background-color: white;
-            width: 300px;
+            max-width: 300px;
             padding: 10px;
             margin: auto;
-            border: 2px blue solid;
+            border: 1px solid blue;
             border-radius: 25px;
-            box-shadow: 0px 3px 5px black;
         }
     </style>
 </head>
@@ -32,6 +43,14 @@
         <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere officia assumenda quasi, sequi voluptatem quo distinctio dolorem culpa quidem maiores vitae. Inventore odit ratione repudiandae, dicta tempora exercitationem odio ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, est qui, voluptas perferendis natus sequi nesciunt placeat odit consequuntur laboriosam accusamus deserunt id voluptatum illum ea sunt assumenda commodi corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptate rerum impedit nobis corrupti. Incidunt dolores ipsum alias earum similique suscipit, eos labore est inventore consequatur officiis tempora tenetur. Minima!
         </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis cumque non quidem impedit mollitia animi iure vero placeat harum nostrum maxime in minima quod quisquam deleniti, maiores nemo dignissimos iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam consectetur sint eos maiores natus. Consequuntur qui suscipit eaque, magni, ea beatae minima voluptate praesentium illo doloribus, assumenda totam earum consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius obcaecati tempore ut quisquam perferendis beatae praesentium, asperiores, excepturi in veritatis, ex perspiciatis! Nulla consectetur maiores aspernatur eius pariatur maxime ea?
+
+        </p> 
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus pariatur similique tempore rem cumque corporis obcaecati architecto, quod et dolorem veniam tempora magni illum ab dolores quam quas aliquam vel? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus culpa esse in eaque placeat aliquam amet, maxime non ducimus sed, facere velit explicabo distinctio. Optio eveniet ut iusto quasi dolorum?
+        </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic in impedit incidunt ut eum ea similique quo! Vero animi fuga nisi ipsum nesciunt dignissimos aut asperiores sint inventore? Adipisci, voluptate! Lorem ipsum dolor sit amet consectetur, adipisicing elit. At facilis harum reiciendis minima numquam perspiciatis odit molestiae veniam sapiente. Laudantium iusto animi sed aperiam libero quod eligendi tempore doloremque dolor.</p>
     </main>
 </body>
 </html>
