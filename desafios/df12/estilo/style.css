@@ -18,7 +18,11 @@ header{
 
 header > h1{
     padding-top: 50px;
-    font-variant: small-caps;
+    font-variant: small-caps; 
+    /* 
+    PARA DEIXAR O TEXTO EM MAIÚSCULO
+    Também tem o (text-transform: uppercase;
+    */
 }
 
 header > p{
