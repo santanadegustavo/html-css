@@ -5,9 +5,20 @@
     padding: 0px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+    :root{
+        --Fonte1: Verdana, Geneva, Tahoma, sans-serif;
+        --Fonte2: 'Passion One', cursive;
+        --Fonte3: 'Sriracha', cursive;
+    }
+
 html, body{
     min-height: 100vh;
     background-color: darkgrey;
+    font-family: var(--Fonte1);
 }
 
 header{
@@ -19,6 +30,8 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps; 
+    font-family: var(--Fonte2);
+    font-size: 5vw;
     /* 
     PARA DEIXAR O TEXTO EM MAIÚSCULO
     Também tem o (text-transform: uppercase;
@@ -44,6 +57,8 @@ section{
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-family: var(--Fonte3);
+    font-size: 2.5vw; /* vw --> viewport width e vh --> viewport height*/
 }
 
 section.normal{
@@ -58,7 +73,8 @@ section.imagem{
 
 section.imagem > p{
     background-color: rgb(51, 50, 50);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 
 footer{
